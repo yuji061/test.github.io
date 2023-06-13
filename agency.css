@@ -1,0 +1,600 @@
+
+
+
+
+
+*{
+text-decoration: none;
+    padding: 0;
+    margin: 0 auto;
+      margin-top: 0px;
+    box-sizing: border-box;
+ 
+    scroll-behavior: smooth !important;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+body{
+text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+background:#1f242d;
+
+height: 1200vh;
+
+}
+
+
+
+
+.navbar{   
+ 
+
+z-index: 100;
+ 
+display: flex;
+    
+
+justify-content: space-around;
+
+align-items: center;
+
+padding-bottom: 10px;
+
+border-bottom: #343946 3px solid;
+
+
+
+
+background:#1f242d;;
+position: fixed;
+
+  overflow: hidden;
+left: 0;
+  top: 0;
+    width: 100%;
+
+ 
+
+}
+
+
+.logo{
+opacity: 0;
+animation: slideRight 1.2s ease forwards;
+
+cursor: pointer;
+    font-weight: 600;
+padding-top: 1%;
+font-size: 2rem;;
+
+color: #ffffff;
+
+}
+
+#home{
+
+    color: aqua;
+}
+
+
+.list{
+
+margin-left:30%;
+display: flex;
+
+list-style: none;
+}
+
+
+
+
+
+
+
+
+.list li{
+ 
+
+    margin-top: 2.5%;
+padding-right: 30px;
+
+}
+
+.list li a{
+    margin-top: 15px;
+    font-size: 24px;
+    color: #ffffff;
+    
+    font-weight: 600;
+    margin-left: 45px;
+    font-family: 'Space Grotesk', sans-serif;
+
+
+}
+
+
+
+
+
+
+
+
+
+#bar{
+
+padding-top: 15px;
+padding-left: 10px;
+
+display: none;
+font-size: 35px;
+color: #ffffff;
+}
+
+
+
+
+
+.element:hover {
+    color: rgba(0, 255, 255, 0.788);
+    text-shadow:  1px 1px 1px rgb(0, 0, 0);
+   
+ }
+ #home:hover{
+    color: #2da0c0;
+ 
+ }
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ .element{
+     position: relative;
+ }
+ .element::after{
+   content: "";
+   position: absolute;
+   bottom: -3px;
+   height: 3px;
+   width: 0;
+   right: 0;
+   background-color: #1183e0;
+   transition: all 700ms ease;
+ }
+ 
+ 
+ .element:hover:after {
+     left: 0;
+     width: 100%;
+ }
+ 
+ 
+ 
+
+
+
+
+
+
+.btns{
+margin-left: 15%;
+
+}
+
+.header{
+
+
+    padding: 70px 20px;
+
+
+
+
+
+    margin-top: 60px;
+    background: #343946;
+
+    display: flex;
+justify-content: space-around;
+    color: #ffffff;
+
+}
+
+
+.container{
+
+padding: 40px;
+
+margin-top: 10px;
+
+
+}
+
+ h1{
+
+
+
+
+color: #ffffff;
+
+    line-height: 1.4;
+        font-size: 39px;
+      
+    
+
+
+
+}
+.hider{
+  margin-bottom: 30px;
+
+
+}
+
+
+
+
+
+p{
+    font-family: 'Space Grotesk', sans-serif;
+
+
+    line-height: 1.6;
+        font-size: 22px;
+     
+}
+
+
+
+
+
+
+
+img{
+    margin-top: 35px;
+margin-left: 20px;
+    width: 850px;
+cursor: pointer;
+   animation: float 4s ease-in-out infinite;
+
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+.hi{
+margin-left: 150px;
+
+
+}
+
+span{
+    cursor: pointer;
+    font-family: 'Space Grotesk', sans-serif;
+
+   text-shadow: 0 0 0.2rem #0ef;
+
+    color: aqua;
+}
+
+.btn{
+
+
+margin-left: 50px;
+margin-top: 60px;
+
+
+
+cursor: pointer;
+font-size: 20px;
+height: 46px;
+letter-spacing: 1.6px;
+padding: 15px;
+
+font-weight: 600;
+
+font-family: Ubuntu,sans-serif;
+
+box-shadow: 0 0 0.2rem #0ef;
+background: #0ef;
+
+padding: 10px;
+
+color: #ffffff;
+border: none;
+border-radius: 12px;
+}
+
+.btn:hover{
+
+        transform: scale(1.02,1.03);
+ 
+
+}
+.btn:active{
+    transform: scale(0.97);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Services section */
+
+
+
+#service{
+    font-size: 54px;
+  padding-top: 22vh;
+text-align: center;
+color: #ffffff;
+
+}
+
+
+.services{
+    margin-top: 0px;
+
+color: aliceblue;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+.skills{
+    margin-top: 120px;
+    display: flex;
+
+    gap: 10rem;
+}
+
+
+#icone{
+    cursor: pointer;
+    font-size: 4.5rem;
+    color: #0ef;
+    margin-bottom: 25px;
+}
+
+.skills .box:hover{
+    border: .2rem solid #0ef;
+
+    transform: scale(1.02);
+}
+.skills .box{
+
+
+
+
+
+
+padding: 70px 15px;
+    flex: 1 1 30rem;
+    background-color: #343946;
+  
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid #1f242d;
+
+}
+.skills h3{
+    font-size: 2.2rem;
+    padding-bottom: 10px;
+}
+.skills p{
+    font-size: 20px;
+    line-height: 1.8rem; 
+     margin: 2rem 0 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bttn{
+
+
+text-align: center;
+
+
+
+
+cursor: pointer;
+font-size: 20px;
+height: 46px;
+letter-spacing: 1.6px;
+padding: 15px;
+
+font-weight: 600;
+
+font-family: Ubuntu,sans-serif;
+
+box-shadow: 0 0 0.2rem #0ef;
+background: #0ef;
+
+padding: 10px;
+
+color: #ffffff;
+border: none;
+border-radius: 12px;
+}
+
+
+
+
+
+
+.bttns{
+margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* About Us */ 
+
+
+
+
+
+
+.about{
+padding: 40px;
+
+color: aliceblue;
+margin-top:250px ;
+    display: flex;
+
+ background-color: #343946;
+
+}
+
+.imag{
+
+width: 650px;
+max-width: 100%;
+
+margin-top: 25px;
+margin-left: 20px;
+
+cursor: pointer;
+
+}
+
+
+
+
+
+.text{
+margin-left: 50px;
+
+}
+
+.head{
+    font-size: 3.5rem;
+   margin-left: 5%;
+    margin-bottom: 60px;
+
+}
+
+.para{
+    margin-bottom: 40px ;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slideRight{
+
+    0%{
+        transform: translateX(0);
+        opacity: 0;
+
+        
+    }
+  
+
+
+    100%{
+        transform: translateX(100px);
+        opacity: 1;
+
+        
+    }
+} 
+
+
+
